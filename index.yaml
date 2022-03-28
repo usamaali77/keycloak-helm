@@ -1,0 +1,33 @@
+apiVersion: v1
+entries:
+  keycloak-operator:
+  - annotations:
+      category: DeveloperTools
+    apiVersion: v2
+    appVersion: 17.0.0
+    created: "2022-03-28T11:02:34.990740501+05:00"
+    description: Keycloak is a high performance Java-based identity and access management
+      solution. It lets developers add an authentication layer to their applications
+      with minimum effort.
+    digest: 7e8054204429f478bb1dc5e9a80e2c1928858a23f961f5ef20a3e3975e7cb346
+    icon: https://www.keycloak.org/resources/images/keycloak_icon_512px.svg
+    keywords:
+    - keycloak
+    - operator
+    maintainers:
+    - email: cdesaintmartin@wiremind.io
+      name: desaintmartin
+    - email: amrini@wiremind.io
+      name: machine424
+    - email: fminaud@wiremind.io
+      name: francoisminaud
+    - email: 19607336+maxime1907@users.noreply.github.com
+      name: maxime1907
+    name: keycloak-operator
+    sources:
+    - https://github.com/wiremind/wiremind-helm-charts/tree/main/charts/keycloak-operator
+    - https://github.com/keycloak/keycloak-operator
+    urls:
+    - https://usamaali77.github.io/keycloak-helm/keycloak-operator-0.0.10.tgz
+    version: 0.0.10
+generated: "2022-03-28T11:02:34.985699351+05:00"
